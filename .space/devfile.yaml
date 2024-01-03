@@ -1,0 +1,11 @@
+schemaVersion: 2.2.0
+attributes:
+    space:
+      # regular, large, xlarge
+      instanceType: regular
+      editor:
+        type: WebStorm
+components:
+- name: dev-container
+  container:
+    image: node:20
